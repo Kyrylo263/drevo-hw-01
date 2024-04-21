@@ -1,0 +1,44 @@
+ul {
+    list-style: none;
+}
+
+.math {
+    text-decoration: none;
+    font-weight: 1000;
+    color: #000;
+}
+
+.math:hover {
+    color: #8b0000;
+}
+
+.golovna {
+    text-decoration: none;
+    font-weight: 1000;
+    color: #000;
+}
+
+.golovna:hover {
+    color: #8b0000;
+}
+
+.subjects {
+    text-decoration: none;
+    font-weight: 1000;
+    font-size: large;
+    color: #000;
+}
+
+.subjects:hover {
+    color: #8b0000;
+}
+
+.algebra-item {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.algebra-item:last-child {
+    margin-bottom: 0;
+}
