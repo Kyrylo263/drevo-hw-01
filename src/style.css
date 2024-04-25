@@ -1,3 +1,10 @@
+body {
+    position: relative;
+    background-color: #9f8c8c;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 ul {
     list-style: none;
 }
@@ -52,5 +59,16 @@ ul {
 }
 
 .geometry-item:last-child {
+    margin-bottom: 0;
+}
+
+.trygonometry-item {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.trygonometry-item:last-child {
     margin-bottom: 0;
 }
